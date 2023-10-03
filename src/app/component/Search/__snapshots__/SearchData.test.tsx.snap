@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchDataComponent renders as expected 1`] = `
+<div>
+  <tr>
+    <td>
+      1
+    </td>
+    <td>
+      id labore ex et quam laborum
+    </td>
+    <td>
+      Eliseo@gardner.biz
+    </td>
+    <td>
+      laudantium enim quasi est quidem magnam voluptate ipsam eos\\ntempora quo necessitatibus\\ndolor quam autem quasi\\nreiciendis et nam sapiente accusantium
+    </td>
+  </tr>
+  <tr>
+    <td>
+      1
+    </td>
+    <td>
+      quo vero reiciendis velit similique earum
+    </td>
+    <td>
+      Jayne_Kuhic@sydney.com
+    </td>
+    <td>
+      est natus enim nihil est dolore omnis voluptatem numquam\\net omnis occaecati quod ullam at\\nvoluptatem error expedita pariatur\\nnihil sint nostrum voluptatem reiciendis et
+    </td>
+  </tr>
+</div>
+`;

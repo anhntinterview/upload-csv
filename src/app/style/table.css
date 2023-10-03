@@ -1,0 +1,57 @@
+.loading,
+.error {
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+.loading {
+    background: rgb(27, 126, 207);
+    border: 2px solid rgb(6, 85, 150);
+}
+
+.error {
+    background: rgb(255, 58, 58);
+    border: 2px solid rgba(218, 38, 38, 0.863);
+}
+
+#filter-container {
+    display: flex;
+    justify-content: space-between;
+    input,
+    select {
+        padding: 5px;
+    }
+    input {
+        padding: 5px 10px;
+    }
+}
+
+#filter-search {
+    width: 75%;
+}
+
+#filter-page {
+    width: 10%;
+}
+
+#users-container {
+    margin-top: 20px;
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        th,
+        td {
+            padding: 10px 15px;
+            text-align: left;
+        }
+        th,
+        tbody {
+            tr {
+                &:nth-child(even) {
+                    background: #f3f3f3;
+                }
+            }
+        }
+    }
+}
