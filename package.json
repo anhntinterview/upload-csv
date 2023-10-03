@@ -11,11 +11,9 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^4.35.7",
-    "lodash": "^4.17.21",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "react-dropzone": "^14.2.3"
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
