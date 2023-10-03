@@ -39,8 +39,6 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Generate Keypair
-        run: yarn gen:keypair
       - name: Build
         run: yarn build
 
