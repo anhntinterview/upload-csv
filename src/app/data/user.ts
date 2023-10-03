@@ -17,7 +17,7 @@ export function useUsers() {
 }
 
 export function useSearch(searchTerm: string) {
-    let url = `http://localhost:3000/api/search?term=${searchTerm}`;
+    let url = `/api/search?term=${searchTerm}`;
     return useQuery<ResponseSearchType, ErrorResponseType>(
         ["search", { searchTerm }],
         () => fetch(url).then((res) => res.json()),
